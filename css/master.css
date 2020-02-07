@@ -1,0 +1,46 @@
+header{
+  background-color: blue;
+  height: 100px;
+  width: 100%;
+
+}
+nav{
+  background-color: pink;
+  height: 50px;
+  width: 100%;
+}
+main{
+  background-color: red;
+  height: 500px;
+  width: 70%;
+}
+aside{
+  background-color: yellow;
+  height: 500px;
+  width: 30%;
+}
+footer{
+  background-color: green;
+  height: 100px;
+  width: 100%;
+}
+#mainwrapper{
+
+  display:flex;
+  flex-direction column;
+}
+#wrapper{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+@media only screen and (max-width: 600px)
+
+}
+main{
+width: 100%;
+}
+aside{
+  width: 100%;
+}
+}
